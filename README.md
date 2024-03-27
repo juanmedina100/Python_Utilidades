@@ -8,6 +8,7 @@ En el mismo esta el descuentos como:
  -> AFP (Pensiones)
  -> ISR (Impuestos Sobre la Renta)
 
+Puedes ver su salario base y su salario neto en este codigo
 ## Interpolacion
 
 Algoritmo para usar interpolación de Lagrange. 

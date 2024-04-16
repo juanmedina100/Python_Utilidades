@@ -15,6 +15,7 @@ def interpolacionY3(valor,vx,vy):
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3
     print(f"Respuesta y3: {respuesta}")
 
+
 def interpolacionY4(valor,vx,vy):
     y1 = ((valor - vx[1])*(valor - vx[2])*(valor - vx[3]))/((vx[0] - vx[1])*(vx[0] - vx[2])*(vx[0] - vx[3]))
     respuesta_y1 = y1*vy[0]
@@ -26,6 +27,7 @@ def interpolacionY4(valor,vx,vy):
     respuesta_y4 = y4*vy[3]
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3+respuesta_y4
     print(f"Respuesta y4: {respuesta}")
+
 
 def interpolacionY5(valor,vx,vy):
     y1 = ((valor - vx[1])*(valor - vx[2])*(valor - vx[3])*(valor - vx[4]))/((vx[0] - vx[1])*(vx[0] - vx[2])*(vx[0] - vx[3])*(vx[0] - vx[4]))
@@ -40,6 +42,7 @@ def interpolacionY5(valor,vx,vy):
     respuesta_y5 = y5*vy[4]
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3+respuesta_y4+respuesta_y5
     print(f"Respuesta y5: {respuesta}")
+
 
 def interpolacionY6(valor,vx,vy):
     y1 = ((valor - vx[1])*(valor - vx[2])*(valor - vx[3])*(valor - vx[4])*(valor - vx[5]))/((vx[0] - vx[1])*(vx[0] - vx[2])*(vx[0] - vx[3])*(vx[0] - vx[4])*(vx[0] - vx[5]))
@@ -56,6 +59,7 @@ def interpolacionY6(valor,vx,vy):
     respuesta_y6 = y6*vy[5]
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3+respuesta_y4+respuesta_y5+respuesta_y6
     print(f"Respuesta y6: {respuesta}")
+
 
 def interpolacionY7(valor,vx,vy):
     y1 = ((valor - vx[1])*(valor - vx[2])*(valor - vx[3])*(valor - vx[4])*(valor - vx[5])*(valor - vx[6]))/((vx[0] - vx[1])*(vx[0] - vx[2])*(vx[0] - vx[3])*(vx[0] - vx[4])*(vx[0] - vx[5])*(vx[0] - vx[6]))
@@ -74,6 +78,7 @@ def interpolacionY7(valor,vx,vy):
     respuesta_y7 = y7*vy[6]
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3+respuesta_y4+respuesta_y5+respuesta_y6+respuesta_y7
     print(f"Respuesta y7: {respuesta}")
+
 
 def interpolacionY8(valor,vx,vy):
     y1 = ((valor - vx[1])*(valor - vx[2])*(valor - vx[3])*(valor - vx[4])*(valor - vx[5])*(valor - vx[6])*(valor - vx[7]))/((vx[0] - vx[1])*(vx[0] - vx[2])*(vx[0] - vx[3])*(vx[0] - vx[4])*(vx[0] - vx[5])*(vx[0] - vx[6])*(vx[0] - vx[7]))
@@ -94,6 +99,7 @@ def interpolacionY8(valor,vx,vy):
     respuesta_y8 = y8*vy[7]
     respuesta = respuesta_y1+respuesta_y2+respuesta_y3+respuesta_y4+respuesta_y5+respuesta_y6+respuesta_y7+respuesta_y8
     print(f"Respuesta y8: {respuesta}")
+
 
 if len(x)==3:
     interpolacionY3(incognita,x,y)
